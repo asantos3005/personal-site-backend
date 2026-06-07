@@ -19,7 +19,7 @@ builder.Services.AddCors(options =>
     {
         policy
             .WithOrigins("http://localhost:5173",
-            "https://personal-site-sigma-henna.vercel.app/")
+            "https://personal-site-sigma-henna.vercel.app")
             .AllowAnyHeader()
             .AllowAnyMethod();
     });
